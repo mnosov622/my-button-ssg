@@ -41,7 +41,7 @@ else{
 //Define variables
 let stats = fs.statSync(argv.input);
 let tempHtml;
-let footer = '<p class="center">© 2021 OSD600 Seneca</p>';
+let footer = '<p class="center">© 2022 OSD600 Seneca</p>';
 let fileType ='';
 
 if(stats.isDirectory()){
