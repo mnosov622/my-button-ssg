@@ -27,7 +27,7 @@ let argv = require('yargs/yargs')(process.argv.slice(2))
 
 // Check ./dist folder
 if(fs.existsSync("./dist")){
-    fs.rmdirSync("./dist",{recursive: true});
+    fs.rmSync("./dist",{recursive: true});
     fs.mkdir("./dist", err=>{
       if(err) throw err;
     });

@@ -14,7 +14,6 @@
     "git": "^0.1.5",
     "yargs": "^17.5.1"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "my-button-ssg"
