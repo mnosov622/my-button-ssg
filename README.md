@@ -8,6 +8,7 @@ This repo introduces a __JavaScript__ program that convert __.txt file__ into a 
 # Commands
   `server.js --input  Convert a text file to HTML file.`
 After installation of yargs. You can simply run the program by the command:
+
 `node server.js -i '.\Silver Blaze.txt'`
 Which will generate a __HTML__ file for the __'Silver Blaze.txt'__ file into the __/dist__ folder.
 
