@@ -4,6 +4,10 @@ A __Static Site Generator__(_SSG_) for __OSD600__
 
 This repo introduces a __JavaScript__ program that convert __.txt file__ into a __HTML file__
 # Installation 
+First install via:
+`npm install`
+
+check if yargs is installed and if not run the following in your terminal:
 `npm -i yargs`
 # Commands
   `server.js --input  Convert a text file to HTML file.`
