@@ -29,6 +29,8 @@ Options:
  
  ` -o, --output                           [string] [required] [default: "./dist"]`
  
+ # Test Site
+ https://my-button-ssg.vercel.app/ 
  # License
  [__MIT License__](https://choosealicense.com/licenses/mit/)
  
