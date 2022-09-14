@@ -28,6 +28,8 @@ Options:
  ` -v, --version  Show version number                                   [boolean]`
  
  ` -o, --output                           [string] [required] [default: "./dist"]`
+
+ ` -i, --input    convert .txt file to html file              [string] [required]`
  
  # Test Site
  https://my-button-ssg.vercel.app/ 
