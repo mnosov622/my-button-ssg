@@ -8,7 +8,7 @@ First install via:
 `npm install`
 
 check if yargs is installed and if not run the following in your terminal:
-`npm -i yargs`
+`npm i yargs`
 # Commands
   `server.js --input  Convert a text file to HTML file.`
 After installation of yargs. You can simply run the program by the command:
