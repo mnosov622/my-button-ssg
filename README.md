@@ -10,7 +10,7 @@ First install via:
 check if yargs is installed and if not run the following in your terminal:
 `npm i yargs`
 # Commands
-  `server.js --input  Convert a text file to HTML file.`
+`node server.js --input  Convert a text file to HTML file.`
 After installation of yargs. You can simply run the program by the command:
 
 `node server.js -i '.\Silver Blaze.txt'`
@@ -26,8 +26,6 @@ Options:
  ` -h, --help     Show help                                             [boolean]`
  
  ` -v, --version  Show version number                                   [boolean]`
- 
- ` -o, --output                           [string] [required] [default: "./dist"]`
 
  ` -i, --input    convert .txt file to html file              [string] [required]`
  
