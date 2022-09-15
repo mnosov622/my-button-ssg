@@ -64,7 +64,7 @@ if(stats.isDirectory()){
       let content = t.slice(1,t.length);
       let html = content
           .map(para =>
-            `<p>${para.replace(/\r?\n/, ' ')}</p> `
+            `\n<p>${para.replace(/\r?\n/, ' ')}</p> `
           ).join(' ');
 
       //HTML
@@ -102,7 +102,7 @@ else{
       let content = t.slice(1,t.length);
       let html = content
           .map(para =>
-            `<p>${para.replace(/\r?\n/, ' ')}</p> </br>`
+            `\n<p>${para.replace(/\r?\n/, ' ')}</p> </br>`
           ).join(' ');
           
       //HTML   
