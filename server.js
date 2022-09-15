@@ -68,8 +68,8 @@ if(stats.isDirectory()){
           ).join(' ');
 
       //HTML
-      tempHtml = `<!doctype html>\n` + `<html lang="en">\n<head>\n<meta charset="UTF-8">\n<title>${t[0]}</title>\n` +
-       `<link rel="stylesheet" href="../src/css/style.css">\n</head>\n` +
+      tempHtml = `<!doctype html>\n` + `<html lang="en">\n<head>\n\t<meta charset="UTF-8">\n\t\t<title>${t[0]}\t</title>\n` +
+       `\t<link rel="stylesheet" href="../src/css/style.css">\t\n</head>\n` +
        `<body>\n` + `<div class = "container">\n`+`<h1>${t[0]} </h1>\n` + `${html}` + `</div>\n\n` +
        `<footer> \n ${footer}\n</footer>\n</body> \n</html>`;
     
