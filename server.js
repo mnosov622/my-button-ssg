@@ -12,7 +12,7 @@ let argv = require('yargs/yargs')(process.argv.slice(2))
   input: {
     alias: 'input',
     demandOption: true,
-    default: '.',
+    default: ' ',
     describe: 'convert .txt file to html file',
     type: 'string'
   },
@@ -44,9 +44,10 @@ let tempHtml;
 let footer = '© 2022 OSD600 Seneca';
 let fileType ='';
 
+
 if(stats.isDirectory()){
   fs.readdirSync(argv.input).forEach(file =>{
-
+  
     //Display all the files in the directory
     console.log("File name: ", file);
     fileType = file.split('.').pop(); 
