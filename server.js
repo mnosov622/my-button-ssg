@@ -103,7 +103,7 @@ else{
       let content = t.slice(1,t.length);
       let html = content
           .map(para =>
-            `\n<p>\n${para.replace(/\r?\n/, ' ')}\n</p> </br>`
+            `\n<p><b>\n${para.replace(/\r?\n/, ' ')}\n</b></p> </br>`
           ).join(' ');
           
       //HTML   
