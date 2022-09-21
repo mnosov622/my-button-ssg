@@ -20,6 +20,9 @@ __Or__
 
 `node server.js -i .\Sherlock-Holmes-Selected-Stories\` 
 Which will generate __HTML__ files for the __Sherlock-Holmes-Selected-Stories directory__ into the __/dist__ folder.
+
+# All generated html files will have bold markdown syntax
+
 # Options
 Options:
 
