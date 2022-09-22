@@ -14,7 +14,7 @@ check if yargs is installed and if not run the following in your terminal:
 After installation of yargs. You can simply run the program by the command:
 
 `node server.js -i '.\Silver Blaze.txt'` or `node server.js -i Silver-Blaze.md`
-Which will generate a __HTML__ file for the __'Silver Blaze.txt'__ file or __'Silver-Blaze.md'__ into the __/dist__ folder.
+Which will generate a __HTML__ file for the __'Silver-Blaze.txt'__ file or __'Silver-Blaze.md'__ into the __/dist__ folder.
 
 __Or__
 
